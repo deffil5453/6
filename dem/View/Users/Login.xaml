@@ -1,0 +1,27 @@
+﻿<Window x:Class="dem.View.Users.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:dem.View.Users"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+       Title="Регистрация" Height="300" Width="400">
+    <Grid Height="250" VerticalAlignment="Top">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="391*"/>
+            <ColumnDefinition Width="9*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Margin="0,0,0,19" >
+            <Label  Content="Логин" Width="331" Margin="10"/>
+            <TextBox x:Name="LoginText" Width="331" ></TextBox>
+            <Label Content="Почта" Width="331" Margin="10"/>
+            <TextBox x:Name="EmailText" Width="331"></TextBox>
+            <Label Content="Пароль" Margin="10" Width="331"/>
+            <PasswordBox x:Name="PasswordText" Width="331" ></PasswordBox>
+            <Button Content="Войти" Margin="10" Click="Login_Click" Height="21" Width="123"/>
+        </StackPanel>
+
+
+    </Grid>
+</Window>

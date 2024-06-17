@@ -1,0 +1,16 @@
+﻿<Window x:Class="dem.View.Products.CreateProduct"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:dem.View.Products"
+        mc:Ignorable="d"
+        Title="Создание продукта" Height="200" Width="200">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <TextBlock Margin="10, 10,10,0">34234</TextBlock>
+            <TextBox Margin="10, 0,10,10" Name="TextName"></TextBox>
+            <Button Width="124" Click="CreateButton_Click">добавить</Button>
+        </StackPanel>
+    </Grid>
+</Window>
